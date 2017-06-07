@@ -1,0 +1,13 @@
+node_modules/
+npm-debug.log
+dist/*
+~*.docx
+\#*\#
+.\#*
+**/.DS_Store
+.settings
+**/.vs
+**/.vscode
+!**/.vscode/tasks.json
+.idea
+yarn.lock

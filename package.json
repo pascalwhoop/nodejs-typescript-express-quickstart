@@ -4,7 +4,7 @@
   "description": "Quickstart template for a NodeJS Application, developed in Typescript.",
   "main": "dist/app/index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha --colors --bail \"dist/**/*test.js\"",
+    "test": "node_modules/mocha/bin/mocha --colors -w --bail \"dist/**/*test.js\"",
     "start": "npm run build && npm run watch",
     "build": "npm run build-ts && npm run tslint",
     "serve": "node dist/server.js",
